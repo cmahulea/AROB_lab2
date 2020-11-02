@@ -1,0 +1,4 @@
+<launch>
+  <node name="AROB_lab2" pkg="stage_ros" type="stageros" args="/home/osboxes/catkin_ws/src/AROB_lab2/world/willow-erratic.world"/>
+  <node name="keyboards" pkg="AROB_lab2" type="teleop_twist_keyboard"/>
+</launch>
