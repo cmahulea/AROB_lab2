@@ -49,6 +49,8 @@ public:
 		float ey = msg.pose.pose.position.y - Goal.pose.position.y;
 		float rho = sqrt(ex*ex+ey*ey);
 		float beta = atan2(ey,ex) + M_PI;
+		if (beta < -M_PI) beta = 2*M_PI - abs(beta);
+		if (beta > M_PI) beta = -2*M_PI + beta;
 		float alpha = beta - tf::getYaw(msg.pose.pose.orientation);
 
 		std::cout << "ex: "<< ex << " ";
