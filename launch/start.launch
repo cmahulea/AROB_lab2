@@ -1,0 +1,4 @@
+<launch>
+  <node name="arob_lab2" pkg="stage_ros" type="stageros" args="/home/osboxes/catkin_ws/src/AROB_lab2/world/simple.world"/>
+  <node name="keyboards" pkg="arob_lab2" type="teleop_twist_keyboard"/>
+</launch>
