@@ -86,4 +86,4 @@ window
 # throw in a robot
 erratic( pose [ -6 -6 0 0 ] name "Audrie" color "blue")
 block( pose [ 4 4 0 0 ] name "obstacle" color "red")
-target( pose [ 4 -6 0 0 ] color "yellow")
+

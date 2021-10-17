@@ -16,16 +16,17 @@ class FollowTargetsClass {
 	geometry_msgs::PoseStamped Goal;
         ifstream inFile;
 	std::vector<std::vector<float> > targets;
+	int currentTarget; //index with the next target to reach
 
 
 public:
-	FollowTargetsClass() {
+	FollowTargetsClass() { //in the contructor you can read the targets from the text file
 	}
 
 	~FollowTargetsClass() {
 	}
 
-
+	//complete the class by adding the functio that you need
 
 
 

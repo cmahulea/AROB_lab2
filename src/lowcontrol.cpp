@@ -27,7 +27,7 @@ public:
 		
 		Goal.pose.position.x = 0; //update the initial values of these variables
 		Goal.pose.position.y = 0;
-		kalpha = 0;
+		kalpha = 0; // the values of these parameters should be obtained by you
 		krho = 0;
 		kbeta = 0;
 	}

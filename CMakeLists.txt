@@ -135,7 +135,6 @@ include_directories(${catkin_INCLUDE_DIRS})
 
 add_executable(teleop_twist_keyboard src/teleop_twist_keyboard.cpp)
 add_executable(lowcontrol src/lowcontrol.cpp)
-add_executable(robot_location src/robot_location.cpp)
 add_executable(followTargets src/followTargets.cpp)
 
 ## Rename C++ executable without prefix
@@ -155,7 +154,6 @@ add_executable(followTargets src/followTargets.cpp)
 
 target_link_libraries(teleop_twist_keyboard ${catkin_LIBRARIES})
 target_link_libraries(lowcontrol ${catkin_LIBRARIES})
-target_link_libraries(robot_location ${catkin_LIBRARIES})
 target_link_libraries(followTargets ${catkin_LIBRARIES})
 
 #############
